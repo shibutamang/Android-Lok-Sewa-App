@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MockTestActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/test_qst_bg">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:paddingLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:id="@+id/qstView"
+            android:textSize="18dp"
+            android:text="1. Who is the prime minister of Nepal?"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            android:textSize="14dp"
+            android:background="@drawable/tv_btn_bg"
+            android:textAlignment="center"
+            android:id="@+id/optOne"
+            android:text="Options One"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            android:textSize="14dp"
+            android:background="@drawable/tv_btn_bg"
+            android:textAlignment="center"
+            android:id="@+id/optTwo"
+            android:text="Options Two"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            android:textSize="14dp"
+            android:background="@drawable/tv_btn_bg"
+            android:textAlignment="center"
+            android:id="@+id/optThree"
+            android:text="Options Three"
+            android:textColor="#000"/>
+    </LinearLayout>
+</LinearLayout>

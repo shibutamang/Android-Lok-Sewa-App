@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hamro Lok Sewa</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">Shibu Tamang, a lead android software developer. He has been developing applications
+    for an android platform since a couple of years ago.</string>
+
+</resources>
